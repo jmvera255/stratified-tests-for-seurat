@@ -6,7 +6,7 @@ library(pbapply)
 library(future.apply)
 library(Matrix)
 
-`%||%` <- Seurat:::`%||%`
+`%||%` <- rlang::`%||%`
 WilcoxDETest <- Seurat:::WilcoxDETest
 CheckDots <- Seurat:::CheckDots
 GLMDETest <- Seurat:::GLMDETest
